@@ -25,7 +25,7 @@ module Jekyll
       end
 
       def modified?(path)
-        !File.exist?(path)
+        File.exist?(path)
       end
     end
 
